@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SecondFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+
+    <TextView
+        android:id="@+id/t2"
+        android:layout_width="278dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="32dp"
+        android:fontFamily="@font/lobster_regular"
+        android:text="Take a picture and let us know on how to Youthify you!"
+        android:textAlignment="center"
+        android:textColor="#32374f"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="@+id/te4"
+        app:layout_constraintHorizontal_bias="0.028"
+        app:layout_constraintStart_toStartOf="@+id/te4"
+        app:layout_constraintTop_toBottomOf="@+id/te4"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <TextView
+        android:id="@+id/textView34"
+        android:layout_width="302dp"
+        android:layout_height="50dp"
+        android:layout_marginStart="32dp"
+        android:fontFamily="@font/lobster"
+        android:text="Just tap the camera icon to know what bothered you!"
+        android:textAlignment="center"
+        android:textColor="#32374f"
+        android:textSize="18sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/te4"
+        app:layout_constraintTop_toBottomOf="@+id/imageView1"
+        app:layout_constraintVertical_bias="0.185" />
+
+    <TextView
+        android:id="@+id/te4"
+        android:layout_width="278dp"
+        android:layout_height="75dp"
+        android:fontFamily="@font/lobster_regular"
+        android:text="Stay Young"
+        android:textColor="#32374f"
+        android:textSize="36sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.24"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.086" />
+
+    <ImageView
+        android:id="@+id/imageView1"
+        android:layout_width="116dp"
+        android:layout_height="233dp"
+        android:layout_marginTop="28dp"
+        android:src="@drawable/click"
+        app:layout_constraintEnd_toEndOf="@+id/t2"
+        app:layout_constraintStart_toStartOf="@+id/t2"
+        app:layout_constraintTop_toBottomOf="@+id/t2" />
+
+    <ImageButton
+        android:id="@+id/diagnose"
+        android:layout_width="120dp"
+        android:layout_height="66dp"
+        android:layout_marginBottom="32dp"
+        android:scaleType="centerCrop"
+        android:src="@drawable/cam_icon"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="@+id/textView34"
+        app:layout_constraintStart_toStartOf="@+id/textView34"
+        app:layout_constraintTop_toBottomOf="@+id/textView34" />
+
+</android.support.constraint.ConstraintLayout>

@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/my_nav"
+    app:startDestination="@id/firstFragment">
+    <fragment
+        android:id="@+id/firstFragment"
+        android:name="gad.heartbeat.androidflask.easyupload.FirstFragment"
+        android:label="fragment_first"
+        tools:layout="@layout/fragment_first" >
+        <action
+            android:id="@+id/action_firstFragment_to_cap1"
+            app:destination="@id/cap1" />
+    </fragment>
+    <fragment
+        android:id="@+id/secondFragment"
+        android:name="gad.heartbeat.androidflask.easyupload.SecondFragment"
+        android:label="fragment_second"
+        tools:layout="@layout/fragment_second" >
+        <action
+            android:id="@+id/action_secondFragment_to_cap2"
+            app:destination="@id/cap1" />
+    </fragment>
+    <fragment
+        android:id="@+id/thirdFragment"
+        android:name="gad.heartbeat.androidflask.easyupload.ThirdFragment"
+        android:label="fragment_third"
+        tools:layout="@layout/fragment_third" >
+        <action
+            android:id="@+id/fitRemedy"
+            app:destination="@id/fitRemedy" />
+    </fragment>
+    <fragment
+        android:id="@+id/cap1"
+        android:name="gad.heartbeat.androidflask.easyupload.Capturing"
+        android:label="fragment_cap"
+        tools:layout="@layout/fragment_cap" >
+        <action
+            android:id="@+id/action_cap1_to_remedies"
+            app:destination="@id/remedies" />
+    </fragment>
+    <fragment
+        android:id="@+id/remedies"
+        android:name="gad.heartbeat.androidflask.easyupload.remedies"
+        android:label="fragment_remedies"
+        tools:layout="@layout/fragment_remedies" />
+    <fragment
+        android:id="@+id/fitRemedy"
+        android:name="gad.heartbeat.androidflask.easyupload.fitRemedy"
+        android:label="fragment_fit_remedy"
+        tools:layout="@layout/fragment_fit_remedy" >
+        <action
+            android:id="@+id/action_fitRemedy_to_tips"
+            app:destination="@id/tips" />
+    </fragment>
+    <fragment
+        android:id="@+id/tips"
+        android:name="gad.heartbeat.androidflask.easyupload.Tips"
+        android:label="fragment_tips"
+        tools:layout="@layout/fragment_tips" />
+</navigation>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/AndroidClient.iml" filepath="$PROJECT_DIR$/AndroidClient.iml" />
+      <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/flaskand.iml" filepath="$PROJECT_DIR$/flaskand.iml" group="flaskand" />
+      <module fileurl="file://$PROJECT_DIR$/app/flaskand-app.iml" filepath="$PROJECT_DIR$/app/flaskand-app.iml" group="flaskand/app" />
+    </modules>
+  </component>
+</project>
